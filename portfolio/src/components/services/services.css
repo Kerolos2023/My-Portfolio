@@ -1,0 +1,76 @@
+
+.sevices {
+  width: 100%;
+  padding: 6rem 2rem;
+  background: var(--color-bg);
+  color: var(--color-light);
+}
+
+
+/* الهيدر */
+.sevices_content .header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sevices_content .header h5 {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.sevices_content .header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+
+
+/* الكارد */
+.card {
+  background: var(--color-bg-variant);
+  border-radius: 1.5rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 350px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(77, 181, 255, 0.2);
+}
+
+/* الأيقونات */
+.sevices_icon {
+  font-size: 3rem;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .sevices_icon {
+  color: var(--color-white);
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* عنوان الكارد */
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+.card:hover h3 {
+  color: var(--color-white);
+}
+
+@media (max-width:768px) {
+    .card {
+        max-width: 100% !important;
+    }
+}
