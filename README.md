@@ -25,6 +25,4 @@ The portfolio showcases my **projects, skills, and experience**. It is fully res
 
 ---
 Live Demo
-
-/هرث ]ُ
-مه
+https://starlit-yeot-e70515.netlify.app/
