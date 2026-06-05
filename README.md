@@ -24,4 +24,4 @@ The portfolio showcases my **projects, skills, and experience**. It is fully res
 ---
 
 Live Demo
-https://snazzy-licorice-bed89b.netlify.app/
+https://courageous-monstera-dc7702.netlify.app/
